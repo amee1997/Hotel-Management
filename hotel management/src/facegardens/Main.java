@@ -78,7 +78,7 @@ public class Main {
     wifi = br.readLine();
     System.out.println("Loundry needed or not(L/nL)");
     laundry = br.readLine();
-    Guest gu = new Guest(ac,cot,cable,wifi,laundry); 
+    //Guest gu = new Guest(ac,cot,cable,wifi,laundry); 
     System.out.println("Do you want to Proceed(Yes/No)");
     i = br.readLine();
 	}while(i.equalsIgnoreCase("No"));
